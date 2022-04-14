@@ -25,7 +25,6 @@ public class Main {
 		an += String.valueOf(((A % C) * (B % C)) % C)+ "\n";
 
 		return an;
-
 	}
 
 	public static void main(String[] args) {
@@ -38,5 +37,4 @@ public class Main {
 
 		System.out.println(m.solution(A, B, C));
 	}
-
 }
